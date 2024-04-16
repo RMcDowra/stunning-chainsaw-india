@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title>Reed's Comic Club Club Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
+        
+</head>
+  
+  
+<body>
+  <h2>Reed's Comic Club Form</Form></h2>
+  <button class="btn btn-secondary" id='button3'>Load JSON Data</button><br><br>
+
+ <div class="card">
+ <form  id="my_form1">
+     <h5>Please Enter Your Personal Information:</h5>
+      <label>First name:</label>
+      <input type="text" id="fname" name="fname" value="" placeholder='John'><br><br>
+   
+      <label>Last name:</label>
+      <input type="text" id="lname" name="lname" value="" placeholder='Doe'><br><br>
+   
+      <label>Today's Date:</label>
+      <input type="datetime-local" id="date" name="date" value=""><br><br>
+   
+      <label>Phone Number:</label>
+      <input type="tel" id='pnum' name='pnum' value='' placeholder='+1 (234) 567-8910'><br><br>
+   
+      <label>User Name:</label>
+      <input type="text" id='usern' name='usern' value='' placeholder='jdoe71'><br><br>
+   
+      <label>Password:</label>
+      <input type="password" value="" id="myInput" placeholder='PassWord1234!'><br><br>
+      
+   <button class="btn btn-secondary" id='button1'>Submit</button>
+   <input type="reset">
+
+   <p id="greetingOutput"></p><br>
+
+</form>
+</div>
+  
+  
+ <div class="card"> 
+ <form id="my_form2" onsubmit="return false">
+   <h5>Survey:</h5><br>
+   <p>Select what era of comics is your favorite(s):</p>
+   <input type='checkbox' name='bike' value=''>
+   <label>Golden Age (1938 - 1956)</label><br>
+   <input type='checkbox' name='bike' value=''>
+   <label>Silver Age (1956 - 1970)</label><br>
+   <input type='checkbox' name='bike' value=''>
+   <label>Bronze Age (1970 - 1985)</label><br>
+   <input type='checkbox' name='bike' value=''>
+   <label>Modern Age (1985 - Present Day)</label>
+   
+   <br>
+
+ <br>
+   
+   
+   
+   <p>From this list of characters choose which ones you like</p>
+    <input type='radio' name='bike' value=''>Batman(The best one obviously)<br>
+    <input type='radio' name='bike' value=''>Spider-Man<br>
+    <input type='radio' name='bike' value=''>Superman<br>
+    <input type='radio' name='bike' value=''>Iron Man<br>
+    <input type='radio' name='bike' value=''>Wonder Woman<br>
+    <input type='radio' name='bike' value=''>Captain America<br>
+    <input type='radio' name='bike' value=''>The Flash<br>
+    <input type='radio' name='bike' value=''>Wolverine<br>
+    <input type='radio' name='bike' value=''>Green Latern
+    
+    <br>
+
+    <br>
+
+    
+    
+  
+    <label for="char">Choose your favorite comic publisher:</label>
+
+<select name="char" id="char">
+
+  <option value="none">None</option>
+  <option value="aquaman">DC Comics</option>
+  <option value="gambit">Marvel</option>
+  <option value="pinhead">BOOM Studios</option>
+  <option value="robotface">IDW Publising</option>
+
+
+
+</select><br><br>
+    
+  
+  
+  
+ 
+  
+  <button class="btn btn-secondary" id='button2'>Submit</button>
+  <input type="reset">
+   
+</form>
+</div>
+
+<footer>
+  <a href='https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fcgooch99.github.io%2FIndia_Lab%2F#textarea' target="_blank">Nu Validator</a><br>
+  <a href='https://github.com/cgooch99/India_Lab' target="_blank">India Repo</a>
+</footer>
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script> 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src="scripts/script.js"></script>
+<script src='ajax.js'></script>
+
+</body>
+  
+</html>
