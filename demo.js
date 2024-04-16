@@ -5,7 +5,7 @@ $("#button3").click(function(){
 
     let url = "data.json";
 
-    $.ajax({
+    $.demo({
 
         url: url,
         dataType: "json",
